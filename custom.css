@@ -1,0 +1,60 @@
+nav {
+	border-bottom: 2.5px solid #9370db;
+}
+.nav-container {
+	padding-left: 0;
+}
+
+.nav-link {
+	text-transform: uppercase;
+}
+.header-image {
+	max-width: 150px;
+	transition: all .5s;
+	border: 1px solid #efefef;
+}
+
+.header-image:hover {
+  transform: scale(1.1) rotate(2deg);
+}
+
+.jumbotron {
+	background: url('images/philadelphia.jpg');
+	background-size: cover;
+}
+
+.card-img-overlay {
+	visibility: hidden;
+	background: #43265c;
+	opacity: .8;
+	border-radius: .25rem;
+	border: 1px solid #9370db;
+}
+
+.btn-primary-outline {
+	color: #43265c;
+	    border-color: #43265c;
+}
+
+ .btn:hover {
+	background-color: #43265c;
+	border: #43265c;
+}
+
+.btn:focus, .btn:active {
+	background-color: #43265c;
+	border: #43265c;
+}
+
+.card-inverse .card-text {
+	color: #fff;
+}
+
+.bg-primary {
+	background-color: #43265c!important;
+}
+
+.card-block .card-text, .card-block .card-title {
+	color: black;
+}
+
