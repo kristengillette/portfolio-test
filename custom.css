@@ -1,5 +1,10 @@
 nav {
 	border-bottom: 2.5px solid #9370db;
+	z-index:  100000000000;
+}
+
+.nav-bar {
+	z-index:  100000000000;
 }
 .nav-container {
 	padding-left: 0;
@@ -23,17 +28,21 @@ nav {
 	background-size: cover;
 }
 
+.card {
+	border: 2px solid #9370db;
+}
+
 .card-img-overlay {
 	visibility: hidden;
 	background: #43265c;
 	opacity: .8;
 	border-radius: .25rem;
-	border: 1px solid #9370db;
+	border: 5px solid #43265c;
 }
 
 .btn-primary-outline {
 	color: #43265c;
-	    border-color: #43265c;
+	border-color: #43265c;
 }
 
  .btn:hover {
@@ -50,11 +59,31 @@ nav {
 	color: #fff;
 }
 
+.card {
+	position: relative;
+}
+
+.btn-card {
+	position: absolute;
+	bottom: 15px;
+	margin: 10px auto;
+	z-index: 100;
+	color: #fff!important;
+	border-color: #fff!important;
+	visibility: hidden;
+}
+
+.mobile-card-title {
+	color: #43265c!important;
+	text-align: center;
+}
+
+.btn-mobile {
+	visibility: hidden;
+}
+
 .bg-primary {
 	background-color: #43265c!important;
 }
 
-.card-block .card-text, .card-block .card-title {
-	color: black;
-}
 

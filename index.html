@@ -51,40 +51,40 @@
         <h1 id="work" class="display-5 text-xs-center m-y-2 text-muted">Sample Projects</h1>
         <div class="row portfolio-samples">
             <!-- start card -->
-            <div data-toggle="modal" data-target="#myModal">
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-lg-4">
                 <div class="card card-inverse">
                     <img class="card-img img-fluid" data-src="..." alt="Card image" src="images/portfolio.jpg">
-                    <div class="card-img-overlay hidden-md-down">
-                        <h4 class="card-title">Web Development Portfolio</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="hidden-sm-down">Project completed May 2016</small></p>
-                    </div>
-                    <div class="card-block hidden-md-up">
+                        <button data-toggle="modal" data-target="#portfolio-modal" type="button" class="btn btn-secondary-outline btn-card col-xs-push-2 col-xs-8">View More</button>
+                    <div class="project-text card-img-overlay">
                         <h4 class="card-title">Web Development Portfolio</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small>Project completed May 2016</small></p>
-                        <button type="button" class="btn btn-sm btn-primary-outline ">View on GitHub</button>
-                        <button type="button" class="btn btn-sm btn-primary-outline ">View Site</button>
+                        
+                        <a href="#" type="button" class="col-xs-offset-3 btn-mobile btn-sm btn btn-primary-outline">View Site</a>
+                        <a href="#" type="button" class="btn-mobile btn-sm btn btn-primary-outline">GitHub</a>
+                    
                     </div>
                 </div>
             </div>
-            </div>
             <!-- end card -->
             <!-- start card -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card card-inverse">
                     <img class="card-img img-fluid" data-src="..." alt="Card image" src="images/optimization.jpg">
-                    <div class="card-img-overlay">
+                        <button data-toggle="modal" data-target="#portfolio-modal" type="button" class="btn btn-secondary-outline btn-card col-xs-push-2 col-xs-8">View More</button>
+                    <div class="project-text card-img-overlay">
                         <h4 class="card-title">Web Optimization Project</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         <p class="card-text"><small class="hidden-sm-down">Project completed May 2016</small></p>
+
+                        <a href="#" type="button" class="col-xs-offset-3 btn-mobile btn-sm btn btn-primary-outline">View Site</a>
+                        <a href="#" type="button" class="btn-mobile btn-sm btn btn-primary-outline">GitHub</a>
                     </div>
                 </div>
             </div>
             <!-- end card -->
             <!-- start card -->
-            <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="col-lg-4 col-md-6 col-xs-12">
                 <div class="card card-inverse">
                     <img class="card-img img-fluid" data-src="..." alt="Card image" src="images/api.jpg">
                     <div class="card-img-overlay">
@@ -93,6 +93,7 @@
                         <p class="card-text"><small class="hidden-sm-down">Project completed April 2016</small></p>
                     </div>
                 </div>
+                <button type="button" class="btn btn-sm btn-primary col-xs-12 m-b-1">Portfolio Site</button>
             </div>
             <!-- end card -->
             <!-- start card -->
@@ -220,30 +221,30 @@
             <!-- end row -->
         </div>
     </div>
-
     <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h4 class="modal-title">Web Development Portfolio</h4>
-      </div>
-      <div class="modal-body">
-         <img class="img-fluid" data-src="..." alt="Card image" src="images/portfolio-large.jpg">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="hidden-sm-down">Project completed March 2016</small></p>
-                        <button type="button" class="btn btn-primary-outline">View on GitHub</button>
-                        <button type="button" class="btn btn-primary-outline">View Site</button>
-      </div>
+    <div class="modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Web Development Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid" data-src="..." alt="Card image" src="images/portfolio-large.jpg">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="hidden-sm-down">Project completed March 2016</small></p>
+                    <button type="button" class="btn btn-primary-outline">View on GitHub</button>
+                    <button type="button" class="btn btn-primary-outline">View Site</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script src="detectmobilebrowser.js"></script>
     <script src="custom.js"></script>
 </body>
 
