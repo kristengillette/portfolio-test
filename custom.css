@@ -1,6 +1,19 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 nav {
 	border-bottom: 2.5px solid #9370db;
 	z-index:  100000000000;
+}
+
+a {
+	color: #9370db;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #e0d6f5;
+	text-decoration: none;
 }
 
 footer {
@@ -9,6 +22,19 @@ footer {
 
 .nav-bar {
 	z-index:  100000000000;
+}
+
+nav {
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 1.5rem;
+}
+
+.navbar-brand {
+	font-size: 1.7rem;
+}
+
+.navbar-brand .small {
+	font-size: 70%;
 }
 .nav-container {
 	padding-left: 0;
@@ -32,12 +58,23 @@ footer {
 	background-size: cover;
 }
 
+h1 {
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
 .card-img-overlay {
 	visibility: hidden;
-	background: #43265c;
-	opacity: .8;
+	background: rgba(67, 38, 92, .9);
 	border-radius: .25rem;
 	border: 5px solid #43265c;
+}
+
+.card {
+	-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
 }
 
 .btn-primary-outline {
@@ -96,4 +133,28 @@ footer {
 	fill: #9370db;
 }
 
+.social:hover {
+	fill: #c2adeb;
+}
 
+footer h1 {
+	font-size: 1.75rem;
+	text-transform: uppercase;
+}
+
+.card-text small, .card-text .small {
+	font-size: 90%;
+}
+p {
+	font-size: .85rem;
+}
+
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-body img {
+	border: 1px solid #c2adeb;
+	border-radius: .25rem;
+	margin-bottom: 1rem;
+}
