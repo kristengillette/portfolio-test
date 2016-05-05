@@ -167,3 +167,7 @@ p {
 	border-radius: .25rem;
 	margin-bottom: 1rem;
 }
+
+.modal-body {
+	padding-top: 0;
+}
