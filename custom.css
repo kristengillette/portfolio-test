@@ -46,7 +46,6 @@ nav {
 .header-image {
 	max-width: 150px;
 	transition: all .5s;
-	border: 1px solid #efefef;
 }
 
 .header-image:hover {
@@ -56,6 +55,10 @@ nav {
 .jumbotron {
 	background: url('images/philadelphia.jpg');
 	background-size: cover;
+}
+
+.bg-info {
+	    background-color: #43265c!important;
 }
 
 h1 {
