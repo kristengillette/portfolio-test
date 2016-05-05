@@ -1,4 +1,6 @@
-if(jQuery.browser.mobile)
+var width = $(window).width();
+
+if(jQuery.browser.mobile && width <= 767)
 {
    $(".card-img").addClass("card-img-top");
    $(".project-text").removeClass("card-img-overlay");
@@ -7,7 +9,7 @@ if(jQuery.browser.mobile)
    $(".card-title").addClass("m-y-1");
    $(".card").css("border", "none");
    $(".card").css("border-radius", "0rem");
-   $(".card").css("border-bottom", "1px solid #818a91");
+   $(".card").css("border-top", "1px solid #818a91");
    $(".card").addClass("p-y-1");
    $(".btn-mobile").css("visibility", "visible");
 }

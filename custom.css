@@ -3,6 +3,10 @@ nav {
 	z-index:  100000000000;
 }
 
+footer {
+	border-top: 2.5px solid #9370db;
+}
+
 .nav-bar {
 	z-index:  100000000000;
 }
@@ -28,10 +32,6 @@ nav {
 	background-size: cover;
 }
 
-.card {
-	border: 2px solid #9370db;
-}
-
 .card-img-overlay {
 	visibility: hidden;
 	background: #43265c;
@@ -53,6 +53,10 @@ nav {
 .btn:focus, .btn:active {
 	background-color: #43265c;
 	border: #43265c;
+}
+
+.btn-card:focus, .btn-card:active, .btn-card:hover {
+	border: #fff!important;
 }
 
 .card-inverse .card-text {
@@ -84,6 +88,12 @@ nav {
 
 .bg-primary {
 	background-color: #43265c!important;
+}
+
+.social {
+	max-width: 50px;
+	max-height: 50px;
+	fill: #9370db;
 }
 
 
