@@ -34,8 +34,9 @@ nav {
 	font-size: 1.7rem;
 }
 
-.navbar-brand .small {
+.navbar-brand small {
 	font-size: 70%;
+	vertical-align: middle;
 }
 .nav-container {
 	padding-left: 0;
