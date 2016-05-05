@@ -12,9 +12,10 @@ a {
 }
 
 a:hover {
-	color: #e0d6f5;
+	color: #43265c;
 	text-decoration: none;
 }
+
 
 footer {
 	border-top: 2.5px solid #9370db;
@@ -143,6 +144,11 @@ transition: all 1s ease-in-out;
 footer h1 {
 	font-size: 1.75rem;
 	text-transform: uppercase;
+}
+
+footer a:hover {
+	color: #c2adeb;
+	text-decoration: none;
 }
 
 .card-text small, .card-text .small {
