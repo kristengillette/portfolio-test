@@ -16,14 +16,14 @@ if(jQuery.browser.mobile && width <= 767)
 else
 {
 	$(".portfolio-samples").on("mouseenter", ".card", function() {
-        $(this).children(".card-img-overlay").css("visibility", "visible");
+    $(this).children(".card-img-overlay").fadeIn();
         $(this).children(".card-img-overlay").css("border", "2px solid #9370db");
-        $(this).children(".btn-card").css("visibility", "visible");
+        $(this).children(".btn-card").fadeIn();
     });
 
 $(".portfolio-samples").on("mouseleave", ".card", function() {
-        $(this).children(".card-img-overlay").css("visibility", "hidden");
-        $(this).children(".btn-card").css("visibility", "hidden");
+        $(this).children(".card-img-overlay").fadeOut();
+        $(this).children(".btn-card").fadeOut();
     });
    
 }

@@ -68,7 +68,7 @@ h1 {
 }
 
 .card-img-overlay {
-	visibility: hidden;
+	display: none;
 	background: rgba(67, 38, 92, .9);
 	border-radius: .25rem;
 	border: 5px solid #43265c;
@@ -116,7 +116,7 @@ transition: all 1s ease-in-out;
 	z-index: 100;
 	color: #fff!important;
 	border-color: #fff!important;
-	visibility: hidden;
+	display: none;
 }
 
 .mobile-card-title {
