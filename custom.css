@@ -74,32 +74,28 @@ h1 {
 	border: 5px solid #43265c;
 }
 
-.card {
-	-webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
-transition: all 1s ease-in-out;
-}
-
 .btn-primary-outline {
 	color: #43265c;
 	border-color: #43265c;
 }
 
  .btn:hover {
-	background-color: #43265c;
-	border: #43265c;
+	background-color: #9370db;
+	border-color: #fff;
 }
 
 .btn:focus, .btn:active {
 	background-color: #43265c;
-	border: #43265c;
+	border: #fff;
+	border-color: #fff;
 }
 
-.btn-card:focus, .btn-card:active, .btn-card:hover {
-	border: #fff!important;
+.btn-secondary-outline:hover {
+	background-color: #9370db!important;
+	color: #fff!important;
+	border-color: #fff!important;
 }
+
 
 .card-inverse .card-text {
 	color: #fff;
@@ -118,6 +114,7 @@ transition: all 1s ease-in-out;
 	border-color: #fff!important;
 	display: none;
 }
+
 
 .mobile-card-title {
 	color: #43265c!important;
@@ -172,3 +169,4 @@ p {
 .modal-body {
 	padding-top: 0;
 }
+
